@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import './styles.css';
 
-import Coverflow from '../../lib';
-import Image from '../../lib/Image';
+import Coverflow, { Image } from '../lib/index';
 
 import Boolean from './Boolean';
 import Number from './Number';

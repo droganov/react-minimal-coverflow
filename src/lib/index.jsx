@@ -2,6 +2,7 @@ import React, { Children, Component } from 'react';
 import PropTypes from 'prop-types';
 import throttle from 'lodash.throttle';
 
+import CoverlowImage from './Image';
 
 const getDepth = (index, elementIndex, maxIndex) => {
   if (index === elementIndex) return maxIndex;
@@ -17,7 +18,7 @@ const getFlexContent = (index, elementIndex) => {
 
 const limit = (number, min, max) => Math.min(Math.max(number, min), max);
 
-export { default as Image } from './Image';
+export const Image = CoverlowImage;
 
 export default class Coverflow extends Component {
   state = {
