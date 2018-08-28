@@ -16,6 +16,8 @@ const getFlexContent = (index, elementIndex) => {
 
 const limit = (number, min, max) => Math.min(Math.max(number, min), max);
 
+export Image from './Image';
+
 export default class Coverflow extends Component {
   state = {
     index: this.props.defaultIndex,
@@ -143,7 +145,6 @@ export default class Coverflow extends Component {
       style={{
         height: this.props.size,
         position: 'relative',
-        overflow: 'visible',
         overflowX: 'hidden',
       }}
     >
