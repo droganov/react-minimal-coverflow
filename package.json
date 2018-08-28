@@ -10,7 +10,7 @@
     "lint": "eslint src/** --ext .js*",
     "docs": "webpack-dev-server --mode development",
     "docs:prod": "webpack --mode production",
-    "prepublish": "npm run lint"
+    "prepublish": "npm run lint && npm run docs:prod"
   },
   "keywords": [],
   "license": "MIT",
