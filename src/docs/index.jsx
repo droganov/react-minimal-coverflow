@@ -8,17 +8,26 @@ import Boolean from './Boolean';
 import Number from './Number';
 
 const images = [
-  'https://www.telegraph.co.uk/content/dam/news/2016/11/16/seal_trans_NvBQzQNjv4BqRtvZRSV037_kYj9aGppl8KoSQRPSZoKNSSXquGEEDe0.jpg',
-  'https://s3.amazonaws.com/ifaw-pantheon/sites/default/files/legacy/wordpress/image/commercial_seal_hunt_Canada_IFAW_3.jpg',
-  'https://icdn2.digitaltrends.com/image/seal-pup-720x720.jpg?ver=1.jpg',
-  'https://pbs.twimg.com/media/DTiuZ9DU0AA_GsH.jpg',
-  'https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fcdn-img.health.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Flarge_16_9%2Fpublic%2Fstyles%2Fmain%2Fpublic%2Fgettyimages-626889828.jpg%3Fitok%3D_IuWGVQE&w=800&q=85',
-  'https://ww2.kqed.org/news/wp-content/uploads/sites/10/2018/04/HorchataPup-800x533.jpg',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY9R0I9bcuvYItdNzldZ-0qWmXcTXzBeHc1lYI23VOJGwYec-75A',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr3uIAZ5iCP5pTlfaFurueLL5JHvde1xKLK2Z4Mop828v5C9qV5w',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmpgj0mMELQeTzOQa25T8uaBnme4Xylls-NFrDyJdFybA_xE6h',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxI6WtmIz09605yT3RkYiYacC52PO21cC8m0TcpyXduipbRpqVVA',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt96ys7ok20GxOQSPaSB37XRyekBTl16ACdhpmbQtBVBUocdjG',
+  'https://www.iucn.org/sites/dev/files/styles/850x500_no_menu_article/public/content/images/2016/east_asia_tibet_by_people_in_nature_cut.jpg?itok=nnFLKRvW',
+  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6D3u-hkHvaGcCupeqDsvZwDV0nMlPBzzxBH8IM2HRwSIDsLE3',
+  'https://hdwallsource.com/img/2014/11/mountain-landscapes-29036-29753-hd-wallpapers.jpg',
+  'http://www.artinstructionblog.com/wp-content/uploads/2017/06/1.jpeg',
+  'https://i.pinimg.com/originals/bb/d7/ad/bbd7ad1e9145fac2d44b92f850a19bd9.jpg',
+  'https://i.ytimg.com/vi/yvYOcG9cdQw/hqdefault.jpg',
+  'https://i.pinimg.com/originals/fe/53/7b/fe537b3a317079ce069ca2427094264e.jpg',
+  'https://arts2science.files.wordpress.com/2014/09/hillsmountains.jpg?w=460&h=345',
+  'https://arts2science.files.wordpress.com/2014/09/mountainlandscape1.jpg?w=460&h=345',
+  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8OIQoR2brJP9nOc7pf4qpcaAPOocLmNYugNGIzhrtp-my4FE3vQ',
+  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ8OPRM-1HyOVgkp45ILn2nYu5gdz8VLKqSzsXFoHfn-9q3j6UMA',
+  'https://i.ytimg.com/vi/rZ4NVveCpF8/maxresdefault.jpg',
+  'https://chrisgheenphoto.files.wordpress.com/2017/06/grand-teton-from-jackson-lake.jpg',
+  'https://photos.smugmug.com/Landscapes/Mountain-Landscapes/i-BQFVdsW/0/1f76194b/S/Turnagain%20Arm%20Salt%20Flats-S.jpg',
+  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD9ss1QCxU4KigzMEDtMEdiJRT9HWhqKIGHGUInnHxo9OMwCOE',
+  'http://russianambience.com/wp-content/uploads/2014/09/20-wonderful-mountain-landscapes-from-caucasus-you-must-see.jpg',
+  'https://cdn.pixabay.com/photo/2012/08/27/14/19/evening-55067__340.png',
+  'https://www.artistsnetwork.com/wp-content/uploads/2014/11/landscape-painting_how-to-paint-a-mountain-121214.jpg',
+  'https://ae01.alicdn.com/kf/HTB1pI5FOFXXXXbfaXXXq6xXFXXXM/Living-room-home-wall-decoration-fabric-poster-Nature-landscapes-Armenia-mountain-landscape-canvas-painting-wall-art.jpg_640x640.jpg',
+  'http://wallpaperscraft.site/ui/images/12/WDF_525063.jpg',
 ];
 
 class Demo extends Component {
